@@ -1,0 +1,449 @@
+@import
+url(‘https://fonts.googleapis.com/css2?family=Outfit&family=Bree+Serif&family=C
+aveat:wght@400;
+700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700
+;1,400;1,700&
+family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Displa
+y:ital,wght@0,
+400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Sourc
+e+Sans+Pro:ital,
+wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&displa
+y=swap’);
+Body {
+ Margin: 0px;
+ Background: linear-gradient(to right, rgb(0, 0, 0), #1F2937);
+}
+• {
+ Font-family: Outfit;
+}
+.main-container {
+ Display: flex;
+ Flex-direction: row;
+ Justify-content: space-between;
+ Box-sizing: border-box;
+ Overflow: hidden;
+}
+.description-container {
+ Display: flex;
+ Flex-direction: column;
+ Align-self: flex-start;
+ Gap: 54px;
+ Width: 65%;
+ Padding-top: 56px;
+ Padding-bottom: 56px;
+ Padding-left: 56px;
+ Padding-right: 12px;
+ Height: 100vh;
+ Box-sizing: border-box;
+}
+30
+.project-details-container {
+ Align-items: flex-start;
+ Display: flex;
+ Flex: none;
+ Flex-direction: column;
+ Flex-wrap: nowrap;
+ Gap: 16px;
+ Height: min-content;
+ Justify-content: flex-start;
+ Overflow: visible;
+ Padding: 0;
+ Position: relative;
+ Width: 100%;
+}
+.project-heading {
+ Flex: none;
+ Height: auto;
+ Position: relative;
+ Width: 100%;
+}
+.heading {
+ Background-image:
+url(https://framerusercontent.com/images/2IaeICXvsJApqTXCae1q1dVMVIE.jpg);
+ Background-size: cover;
+ Background-repeat: no-repeat;
+ Background-position: 0% 0%;
+ Background-clip: text;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ Color: rgb(136, 136, 136);
+ Font-size: 80px;
+ Font-family: Outfit, sans-serif;
+ Font-style: normal;
+ Font-weight: 900;
+ Text-align: left;
+ Letter-spacing: 0px;
+ White-space: normal;
+ Line-height: 1;
+ Margin: 0px;
+ Padding: 0px 0px 10px;
+}
+.project-description {
+30
+ Position: relative;
+ White-space: pre-wrap;
+ Max-width: 569px;
+ Word-break: break-word;
+ Outline: none;
+ Display: flex;
+ Flex-direction: column;
+ Justify-content: flex-start;
+ Flex-shrink: 0;
+ Transform: none;
+}
+.description {
+ Font-family: Outfit, sans-serif;
+ Font-size: 16px;
+ Font-style: normal;
+ Font-weight: 400;
+ Letter-spacing: 0px;
+ Line-height: 24px;
+ Color: rgb(148, 163, 184);
+ Margin: 0px;
+}
+.i-have-learnt-section {
+ Align-items: flex-start;
+ Display: flex;
+ Flex: none;
+ Flex-direction: column;
+ Flex-wrap: nowrap;
+ Gap: 16px;
+ Height: min-content;
+ Justify-content: flex-start;
+ Overflow: visible;
+ Padding: 0;
+ Position: relative;
+ Width: 100%;
+ z-index: 1;
+}
+.i-have-learnt {
+ Font-family: Outfit, sans-serif;
+ Font-size: 16px;
+ Font-style: normal;
+ Font-weight: 400;
+ Letter-spacing: 0px;
+30
+ Line-height: 24px;
+ Color: rgb(148, 163, 184);
+ Margin: 0px;
+}
+.profile-section {
+ Display: flex;
+ Flex-direction: row;
+ Gap: 16px;
+ Justify-content: flex-start;
+ Align-items: center;
+ Max-width: 1000px;
+ Overflow: visible;
+ Padding: 0;
+ Position: relative;
+ Width: 100%;
+}
+.profile-pic-container {
+ Width: 66px;
+ Position: relative;
+ Aspect-ratio: 1 / 1;
+ Height: 66px;
+ Border-radius: 40px;
+ Box-shadow: 0 10px 25px #400363, 0 -5px 25px #008bc7;
+}
+.profile-pic {
+ Position: absolute;
+ Top: 0;
+ Bottom: 0;
+ Left: 0;
+ Right: 0;
+ Border-radius: inherit;
+}
+.student-pic {
+ Display: block;
+ Width: 100%;
+ Height: 100%;
+ Border-radius: inherit;
+ Object-position: center;
+ Object-fit: cover;
+ Image-rendering: auto;
+}
+30
+.profile-info-container {
+ Align-items: flex-start;
+ Display: flex;
+ Flex-direction: column;
+ Gap: 5px;
+ Justify-content: flex-start;
+ Overflow: visible;
+ Padding: 0;
+ Position: relative;
+}
+.name {
+ Font-size: 30px;
+ Margin: 0px;
+ Color: white;
+ Font-weight: 600;
+}
+.bot-extra-info {
+ Color: rgba(212, 212, 212, 0.6);
+ Margin: 0px;
+ Font-weight: 400;
+ Font-family: Outfit, Sans-Serif;
+}
+.topics-list {
+ Align-items: center;
+ Display: flex;
+ Flex: none;
+ Flex-direction: row;
+ Flex-wrap: wrap;
+ Gap: 24px;
+ Height: min-content;
+ Justify-content: flex-start;
+ Overflow: visible;
+ Padding: 0;
+ Position: relative;
+ Width: 100%;
+}
+.topic-icon {
+ Box-sizing: border-box;
+ Flex-shrink: 0;
+ /* width: 64px;
+30
+ Height: 64px; */
+ Display: flex;
+ Flex-direction: column;
+ Justify-content: flex-start;
+ Align-items: center;
+ Padding: 20px 16px;
+ /* -webkit-backdrop-filter: blur(10px); */
+ /* backdrop-filter: blur(10px); */
+ Background-color: rgba(30, 41, 59, 0.2);
+ /* overflow: hidden; */
+ Position: relative;
+ Align-content: center;
+ Flex-wrap: nowrap;
+ Gap: 0;
+ Border-radius: 16px;
+ Border: 1px solid #1e293b;
+ Opacity: 1;
+ Transform: none;
+ Cursor: pointer;
+}
+@keyframes beating {
+ 0% {
+ Font-size: 10px;
+ }
+ 100% {
+ Font-size: 20px;
+ }
+}
+.heart-beat {
+ Width: 10px;
+ Height: 10px;
+ Animation: beating 0.8s infinite;
+ Font-size: 10px;
+ Display: inline-flex;
+ Align-items: center;
+ Justify-content: center;
+ Margin-right: 6px;
+}
+.footer-section {
+ Display: flex;
+30
+ Align-items: flex-end;
+ Justify-content: flex-start;
+ Gap: 8px;
+ Flex-grow: 1;
+ Flex-wrap: wrap;
+}
+.footer-info {
+ Font-family: Outfit, sans-serif;
+ Font-size: 16px;
+ Font-style: normal;
+ Font-weight: 400;
+ Letter-spacing: 0px;
+ Line-height: 24px;
+ Color: rgb(148, 163, 184);
+}
+.share-now {
+ Display: flex;
+ Align-items: flex-end;
+}
+.icons-container {
+ Height: 100%;
+ Display: flex;
+ Align-items: flex-end;
+ Gap: 16px;
+ Margin-bottom: -4px;
+}
+.divider-container {
+ Flex: none;
+ Height: 24px;
+ Position: relative;
+ Width: 2px;
+ Flex-shrink: 0;
+ Fill: rgba(0, 0, 0, 1);
+ Background: rgb(148, 163, 184);
+}
+.divider {
+ Width: 100%;
+ Height: 100%;
+ Aspect-ratio: inherit;
+}
+30
+.share-now-text {
+ Margin: 0px;
+}
+.zoom-svg {
+ Transform: scale(1.5);
+ /* Zoom the SVG by 1.5 times on hover */
+}
+@media screen and (max-width: 1199px) {
+ .divider-container {
+ Display: none;
+ }
+ .footer-section {
+ Flex-direction: column;
+ Align-items: flex-start;
+ Justify-content: flex-end;
+ }
+}
+.chat-bot-container {
+ Height: 100vh;
+ Width: 35%;
+ Box-sizing: border-box;
+}
+.chat-bot-container-iframe {}
+.social-icon {
+ Cursor: pointer;
+}
+.gradio-logo {
+ Width: 26px;
+ Height: 26px;
+ Border-radius: 8px;
+}
+.open-ai-logo {
+ Margin: 2px;
+}
+.hugging-face-logo {
+30
+ Width: 26px;
+ Height: 26px;
+}
+.langchain-logo {
+ Width: 26px;
+ Height: 26px;
+ Border-radius: 8px;
+}
+.playht-logo {
+ Width: 26px;
+ Height: 26px;
+ Border-radius: 8px;
+}
+.gradio-container {
+ Border: 0px !important;
+ Margin: 0px !important;
+ Height: 100%;
+}
+.main {
+ Background: transparent;
+ Height: 100%;
+}
+.contain {
+ Height: 100%;
+}
+.wrap {
+ Height: 100%;
+}
+#component-0 {
+ Height: 100%;
+}
+#component-1 {
+ Padding: 0px;
+ Height: 100%;
+}
+.footer-mobile {
+30
+ Display: none;
+}
+.footer-desktop {
+ Display: flex;
+}
+@media screen and (max-width: 950px) {
+ Body {
+ Background: linear-gradient(to bottom, rgb(0, 0, 0), #1F2937);
+ }
+ .main-container {
+ Flex-direction: column;
+ }
+ .description-container {
+ Width: 100%;
+ Height: 100%;
+ Padding-right: 56px;
+ }
+ .chat-bot-container {
+ Width: 100%;
+ Height: 600px;
+ Padding: unset;
+ Padding-left: 56px;
+ Padding-right: 56px;
+ Padding-bottom: 56px;
+ Box-sizing: border-box;
+ }
+ .footer-desktop {
+ Display: none;
+ }
+ .footer-mobile {
+ Display: flex;
+ Margin-left: 56px;
+ Margin-bottom: 30px;
+ Align-items: center;
+ }
+ .share-now {
+ Flex-direction: column;
+30
+ Align-items: center;
+ Gap: 6px
+ }
+}
+@media screen and (max-width: 576px) {
+ .description-container {
+ Padding: 32px 24px;
+ }
+ .chat-bot-container {
+ Padding-left: 24px;
+ Padding-right: 24px;
+ Padding-bottom: 32px;
+ }
+}
+.tooltip {
+ Position: relative;
+}
+/* Tooltip text */
+.tooltip .tooltiptext {
+ Visibility: hidden;
+ Width: 120px;
+ Background-color: rgb(148, 163, 184);
+ Color: black;
+ Text-align: center;
+ Padding: 5px 5px;
+ Border-radius: 6px;
+ Position: absolute;
+ z-index: 70;
+ top: 40px;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+ Visibility: visible;
+}
+.about-section {
+ Color: rgba(212, 212, 212, 0.6);
+ Border-radius: 8px;
+ Border: 1px solid #1e293b;
+30
+ Opacity: 1;
+ Padding: 8px;
+ Margin-top: 20px;
+ Width: 100%;
+ Max-width: 761px;
+ Box-sizing: border-box;
+}
+.zoom-svg {
+ Pointer-events: none;
